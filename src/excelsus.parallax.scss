@@ -1,0 +1,42 @@
+$screen-md-max: 1199px;
+
+body {
+  margin-left:  0;
+  margin-right: 0;
+
+  .parallax {
+    position: relative;
+
+    > img {
+      display: none;
+      width:   100%;
+      height:  auto;
+    }
+
+    &.fallback-on {
+      width:  100% !important;
+      height: auto !important;
+
+      canvas {
+        display: none;
+      }
+
+      > img {
+        display: block;
+      }
+    }
+
+    @media (max-width: #{$screen-md-max}) {
+      width:  100% !important;
+      height: auto !important;
+
+      canvas {
+        display: none;
+      }
+
+      > img {
+        display: block;
+      }
+    }
+  }
+}

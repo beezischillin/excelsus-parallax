@@ -1,0 +1,26 @@
+body {
+  margin-left: 0;
+  margin-right: 0; }
+  body .parallax {
+    position: relative; }
+    body .parallax > img {
+      display: none;
+      width: 100%;
+      height: auto; }
+    body .parallax.fallback-on {
+      width: 100% !important;
+      height: auto !important; }
+      body .parallax.fallback-on canvas {
+        display: none; }
+      body .parallax.fallback-on > img {
+        display: block; }
+    @media (max-width: 1199px) {
+      body .parallax {
+        width: 100% !important;
+        height: auto !important; }
+        body .parallax canvas {
+          display: none; }
+        body .parallax > img {
+          display: block; } }
+
+/*# sourceMappingURL=excelsus.parallax.css.map */
