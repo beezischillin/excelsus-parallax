@@ -41,15 +41,6 @@ or
          data-base="/images/hero_base.jpg" 
     ></div>
 ```
-or
-    
-```
-    <div class="parallax" 
-         data-speed="0.2" 
-         data-height="30%"
-         data-overlay="/images/hero_overlay.jpg" 
-    ></div>
-```
 
 + **data-speed** - parallax scroll speed
 + **data-aspect-ratio** - you can specify the parallax weight as an aspect ratio where the window width is the parallax width
